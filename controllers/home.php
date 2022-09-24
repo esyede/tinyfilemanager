@@ -9,7 +9,7 @@ class Tinyfilemanager_Home_Controller extends Controller
         // Proteksi route dengan middleware
         $middlewares = Config::get('tinyfilemanager::main.middleware');
         $middlewares = array_merge($middlewares, ['auth']);
-        // $this->middleware('before', $middlewares);
+        $this->middleware('before', $middlewares);
     }
 
     public function action_index($uri = null)
