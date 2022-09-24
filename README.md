@@ -54,8 +54,7 @@ melalui url `/tinyfilemanager` seperti contoh berikut:
 https://situsku.com/tinyfilemanager
 ```
 
-Jika semuanya baik - baik saja, anda akan langsung bisa mengakses database
-mengikuti koneksi yang anda atur di konfigurasi database default aplikasi anda.
+Jika semuanya baik - baik saja, anda akan langsung dibawa ke tampilan file manager tanpa login.
 
 
 ## Lisensi
